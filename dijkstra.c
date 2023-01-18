@@ -91,3 +91,6 @@ int main() {
     return 0;
 }
 
+//It is to be noted that Dijkstra algorithm works for only graphs with non-negative weight cycle. 
+//The problem with Dijkstra’s algorithm is that it is believed that all costs in the given graph are non-negative,
+//so adding any positive number on a vertex that has already been visited will never change its minimality
